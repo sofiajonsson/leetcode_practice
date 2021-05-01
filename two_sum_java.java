@@ -33,6 +33,7 @@ class TwoSum {
 class TwoSum {
 
     // Time complexity: O(n*log(n))
+    // returns values not the indices
     private static int[] findTwoSum_Sorting(int[] nums, int target) {
         Arrays.sort(nums);
         int left = 0;
